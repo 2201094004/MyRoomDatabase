@@ -1,4 +1,4 @@
-package com.syaviraindahmaryam.myroomdatabase.DAO;
+package com.syaviraindahmaryam.myroomdatabase.Dao;
 
 import androidx.room.Dao;
 import androidx.room.Delete;
@@ -13,7 +13,7 @@ import java.util.List;
 @Dao
 public interface ProdukDao {
 
-    @Insert //insert into produk (id, nama, deskripsi)
+    @Insert
     void insert(Produk produk);
 
     @Update
@@ -24,4 +24,5 @@ public interface ProdukDao {
 
     @Query("SELECT * FROM produk")
     List<Produk> getAll();
+
 }

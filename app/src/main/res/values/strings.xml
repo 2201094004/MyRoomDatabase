@@ -3,4 +3,10 @@
     <string name="nama_produk">Nama Produk</string>
     <string name="nomor_id">Nomor ID</string>
     <string name="nama_deskripsi">Nama Deskripsi</string>
+    <string name="masukkan_nama">Masukkan Nama</string>
+    <string name="masukkan_deskripsi">Masukkan Deskripsi</string>
+    <string name="simpan">simpan</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="deskripsi">deskripsi</string>
 </resources>
